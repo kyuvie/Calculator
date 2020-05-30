@@ -14,6 +14,10 @@ This can not define a function in another function.
 % pip install B1u3Calulator
 ```
 
+# Screenshot
+
+![img](./imgs/sample.gif)
+
 # How to use
 
 Start repl(Read-Eval-Print Loop)
@@ -65,3 +69,4 @@ def sample_func(a, b, c) {
     a+b+c;
 }
 ```
+
