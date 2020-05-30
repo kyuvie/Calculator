@@ -38,12 +38,12 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.0',  # Required
+    version='1.0.1',  # Required
 
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
-    description='B1u3\'s calculator.',  # Optional
+    description="kyuvie's calculator.",  # Optional
 
     # This is an optional longer description of your project that represents
     # the body of text which users will see when they visit PyPI.
@@ -75,16 +75,16 @@ setup(
 
     # This should be your name or the name of the organization which owns the
     # project.
-    author='B1u3',  # Optional
+    author='kyuvie',  # Optional
 
     # This should be a valid email address corresponding to the author listed
     # above.
-    # author_email='',  # Optional
+    author_email='alchemy.lapidis.philosophorum.13@gmail.com',  # Optional
 
     # Classifiers help users find your project by categorizing it.
     #
     # For a list of valid classifiers, see https://pypi.org/classifiers/
-    # classifiers=[  # Optional
+    classifiers=[  # Optional
         # How mature is this project? Common values are
         #   3 - Alpha
         #   4 - Beta
@@ -101,19 +101,19 @@ setup(
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate you support Python 3. These classifiers are *not*
         # checked by 'pip install'. See instead 'python_requires' below.
-        # 'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3',
         # 'Programming Language :: Python :: 3.5',
         # 'Programming Language :: Python :: 3.6',
         # 'Programming Language :: Python :: 3.7',
-        # 'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.8',
         # 'Programming Language :: Python :: 3 :: Only',
-    # ],
+    ],
 
     # This field adds keywords for your project which will appear on the
     # project page. What does your project relate to?
     #
     # Note that this is a string of words separated by whitespace, not a list.
-    keywords='calculator pratts programming language',  # Optional
+    keywords='calculator pratts language',  # Optional
 
     # When your source code is in a subdirectory under the project root, e.g.
     # `src/`, it is necessary to specify the `package_dir` argument.
@@ -198,4 +198,5 @@ setup(
     #     'Say Thanks!': 'http://saythanks.io/to/example',
     #     'Source': 'https://github.com/pypa/sampleproject/',
     # },
+    url="https://github.com/kyuvie/Calculator"
 )
